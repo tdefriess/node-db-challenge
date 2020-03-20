@@ -15,7 +15,7 @@ server.use(express.json());
 // server.use('/api/tasks', taskRouter);
 
 server.get('/', (req, res) => {
-    res.send('API up');
+    res.send('API up **Sprint Challenge**');
 });
 
 module.exports = server;
